@@ -118,6 +118,14 @@ footer {
 
 .cpmudouvida-videos {
     padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cpmudouvida iframe {
+    margin: 10px;
 }
 
 .hamburger-menu,
@@ -273,28 +281,26 @@ footer {
 
 .cpnatal {
     background-image: url(../project-campusparty/images/banner-cpnatal2.png);
-    background-size: 90vw;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 30px;
     text-align: right;
     padding-right: 70px;
     padding-top: 200px;
     box-sizing: border-box;
+    margin-right: 5vw;
 }
 
 .cpgoias {
     background-image: url(../project-campusparty/images/banner-cpgoias.png);
-    background-size: 90vw;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 60px;
     text-align: right;
     padding-right: 70px;
     padding-top: 200px;
     box-sizing: border-box;
-}
-
-.edicoesanteriores div {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 110px;
+    margin-right: 5vw;
 }
 
 .edicoesanteriores div h3 {
@@ -302,16 +308,37 @@ footer {
     display: block;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.previous {
+    display: flex;
+    margin-bottom: 110px;
+    justify-content: center;
+}
+
 .previous-1 {
     background-image: url(../project-campusparty/images/ed-anterior-cpbr12.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 320px;
-    
 }
 
 .previous-2 {
     background-image: url(../project-campusparty/images/ed-anterior-cpbsb3.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 320px;
     margin-left: 30px;
 }
@@ -342,5 +369,11 @@ footer {
 }
 
 .img-instagram {
-    width: 10%;
+    width: 20%;
+}
+
+.instaimages {
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
 }
