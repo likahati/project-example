@@ -48,7 +48,6 @@ h3 {
     text-transform: uppercase;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 45px;
 }
 
 h4 {
@@ -68,16 +67,23 @@ main {
     margin-right: 80px;
 }
 
+footer {
+    align-items: center;
+    align-content: center;
+}
+
 .footer p {
-    height: 55px;
-    background-color: #0099FF;
     font-weight: 600;
     color: #ffffff;
     font-size: 14px;
     text-transform: uppercase;
-    text-align: center;
 }
 
+.footer div {
+    padding: 28px 0;
+    text-align: center;
+    background-color: #0099FF;
+}
 .container-sobre {
     background-image: url(../project-campusparty/images/bg-info.png);
     background-repeat: no-repeat;
@@ -156,6 +162,7 @@ main {
     padding: 12px 50px 12px 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
+    z-index: 1;
 }
 
 .nav-container ul {
@@ -180,6 +187,7 @@ main {
 
 .header-info h1 {
     width: 630px;
+    z-index: 0;
 }
 
 .nav-container2 {
@@ -234,6 +242,7 @@ main {
     width: 490px;
     margin-top: 30px;
     margin-left: 10px;
+    z-index: -1;
 }
 
 .span2::before {
@@ -244,6 +253,7 @@ main {
     width: 370px;
     margin-top: 30px;
     margin-left: 10px;
+    z-index: -1;
 }
 
 .h2 {
@@ -304,6 +314,31 @@ main {
     background-repeat: no-repeat;
     height: 320px;
     margin-left: 30px;
+}
+
+.cpinsta {
+    background-image: url(../project-campusparty/images/banner-cp-intagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    color: #ffffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpbrhashtag {
+    background-color: #E82194;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
 }
 
 .img-instagram {
